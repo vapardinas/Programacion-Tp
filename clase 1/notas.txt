@@ -1,0 +1,11 @@
+Primera clase
+#option(alt) command flecha abajo
+#modificar las cosas (#command d)
+
+header (menu de navegacion, logo)
+main(contenido que quiero mostrar)
+footer(contacto, mapa del sitio, legales(valido para arg, mercadopago))
+no tengo indentado
+
+hacer un comentario=  sksks
+
