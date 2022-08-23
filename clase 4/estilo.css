@@ -1,0 +1,46 @@
+/* etiqueta {propiedad :valor;}*/
+/* llamar a la etiqueta directo*/
+*{color:blue}
+
+body{background-color: blanchedalmond;}
+
+/* llamar a una clase */ 
+.titular:hover{
+    color:blueviolet;
+    font-size: 50px;
+}
+
+.titular{
+    background-color: 
+    blue ;
+    color:blueviolet;
+    font-size: 50px;
+}
+
+#relativa{
+    position:relative;
+    right:100px;
+    top:100px;
+}
+
+#whatspp{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+
+/* llamar a una clase */ 
+.border{
+    border: 5px solid lightcoral;
+}
+
+
+/* llamar a un id */ 
+#titular3{
+    color:blue;
+}
+
+/* llamar a un id - otro id nuevo */ 
+#titular4{
+    color:black;
+}
