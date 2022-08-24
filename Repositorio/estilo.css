@@ -1,8 +1,8 @@
 /* etiqueta {propiedad :valor;}*/
 /* llamar a la etiqueta directo*/
-*{color:blue}
+*{color:rgb(37, 37, 205)}
 
-body{background-color: blanchedalmond;}
+body{background-color: rgb(223, 117, 152);}
 
 /* llamar a una clase */ 
 .titular:hover{
@@ -15,10 +15,12 @@ h2
 {color: white;}
 .titular{
     background-color: 
-    blue ;
-    color:blueviolet;
+    rgb(223, 117, 152)  ;
+    color:rgb(37, 37, 205);
     font-size: 50px;
 }
+
+
 
 #relativa{
     position:relative;
@@ -40,10 +42,10 @@ h2
 
 /* llamar a un id */ 
 #titular3{
-    color:blue;
+    color:white;
 }
 
 /* llamar a un id - otro id nuevo */ 
 #titular4{
-    color:black;
+    color:rgb(37, 37, 205);
 }
