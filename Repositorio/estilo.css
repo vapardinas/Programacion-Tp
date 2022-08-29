@@ -21,17 +21,24 @@ h2
 }
 
 
-
 #relativa{
     position:relative;
-    right:100px;
-    top:100px;
+    right:80px;
+    top:80px;
 }
 
-#whatspp{
+
+
+.whatspp{
     position:fixed;
     bottom:10px;
     right:10px;
+}
+
+.insta{
+    position:fixed;
+    bottom:10px;
+    right: 75px;
 }
 
 /* llamar a una clase */ 
@@ -48,4 +55,23 @@ h2
 /* llamar a un id - otro id nuevo */ 
 #titular4{
     color:rgb(37, 37, 205);
+}
+
+.header{
+    position:sticky;
+    top: 0;
+}
+
+.conj_img
+{
+    flex-wrap: wrap;
+    display:inline-flex;
+}
+
+
+.img_txt
+{   
+    padding: 50px;
+    display: block;
+    width: 400px;
 }
