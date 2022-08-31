@@ -62,6 +62,11 @@ h2
     top: 0;
 }
 
+h3{
+    font-family: 'Playfair Display', serif;
+}
+
+
 .conj_img
 {
     flex-wrap: wrap;
@@ -97,4 +102,9 @@ h2
 
 #imagen-responsive{
     width:25% ;
+}
+
+.letra{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
 }
