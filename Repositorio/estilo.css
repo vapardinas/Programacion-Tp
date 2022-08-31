@@ -14,10 +14,17 @@ body{background-color:white;}
 h2
 {color: black;}
 .titular{
-    background-color: 
-    rgb(223, 117, 152)  ;
+    background-color: blue;
     color:rgb(37, 37, 205);
     font-size: 50px;
+}
+
+
+
+li{
+    display: inline;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 
 
@@ -98,7 +105,13 @@ h3{
     bottom: 6px;
 }
 
+#buscador{
+    position: relative;
+    left: 25px;
+    bottom: 15px;
+    font-size: 15px;
 
+    }
 
 #imagen-responsive{
     width:25% ;
