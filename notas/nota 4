@@ -1,0 +1,20 @@
+in line - una alado de la otra
+bloque - toda la linea
+    div
+flex- flexible
+
+.contenido>div{
+    background
+    width
+    margin
+    text-align
+    line-height
+    font-size
+}
+flex-container{
+    display:flex
+    flex-wrap:wrap
+    background-color:red
+}
+
+todas las propiedades

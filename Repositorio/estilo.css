@@ -50,7 +50,7 @@ li{
 
 /* llamar a una clase */ 
 .border{
-    border: 5px solid lightcoral;
+    border: 2px solid red;
 }
 
 
@@ -73,18 +73,17 @@ h3{
     font-family: 'Playfair Display', serif;
 }
 
-
 .conj_img
-{
+{   display: flex;
     flex-wrap: wrap;
-    display:inline-flex;
+    text-align: center !important;
+    justify-content: space-evenly;
 }
 
 
 .img_txt
 {   
-    padding: 70px;
-    display: block;
+
     width: 280px;
 }
 
@@ -120,4 +119,19 @@ h3{
 .letra{
     font-family: 'Times New Roman', Times, serif;
     font-style:italic;
+}
+
+.flex-container{
+    display:flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items:center;
+}
+    
+.class {
+@media only screen and (max-width: 600px) {
+    margin-left {
+      background-color: lightblue;
+    }
+  }
 }
