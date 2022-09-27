@@ -18,7 +18,29 @@ h2
     font-size: 50px;
 }
 
+.tituloa{
+    text-align: center;
+}
 
+.titulob{
+    text-align: center;
+}
+
+.tituloc{
+    text-align: center;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}   
+   
 
 li{
     display: inline;
@@ -78,6 +100,7 @@ h3{
     padding: 10px;
     gap: 5px;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -114,6 +137,16 @@ h3{
 #imagen-responsive{
     width:25% ;
 }
+
+.novedades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 5px;
+    text-align: center;
+}
+
+
 
 .letra{
     font-family: 'Times New Roman', Times, serif;
