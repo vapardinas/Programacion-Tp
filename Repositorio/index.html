@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Document</title> 
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
@@ -55,35 +55,32 @@
         <h3> Promociones Exclusivas </h3>
         <p>Lorem<b> ipsum </b> <em>dolor sit</em> amet consectetur adipisicing elit. Voluptatum id neque libero? Laboriosam magni voluptatum doloremque maiores cupiditate! Molestias soluta odit optio rem sapiente fugiat magni quo deserunt facilis distinctio.</p>
         
-        <div class="conj_img" >
-             <img src="./imagen/acido.jpeg"  alt="imagen no encotrada" width="300" height="400">
-             <img src="./imagen/crema.jpeg" alt="imagen no encotrada" width="300" height="400" >
-             <img src="./imagen/astringente.jpeg" alt="imagen no encotrada" width="300" height="400" >
-        </div> 
-        
-        <video src="https://www.youtube.com/watch?v=GeDP3zPqqvc" autoplay poster="posterimage.jpg">
-          Tu navegador no admite el elemento <code>video</code>.
-        </video>
-        
-        <a href="https://www.abrilclub.com/" target="_blank "> ¿Donde comprar?  </a>
-            <ul type="square">
-                <li> Antiarrugas </li>
-                <li> Cosa 2 </li>
-                <li> Cosa 3 </li>
-                <li>Cosa 4</li>
-            </ul>
-            <ol type="i">
-                <li>Cosa 1</li>
-                <li> Cosa 2 </li>
-                <li> Cosa 3 </li>
-                <li>Cosa 4</li>
-            </ol>
+        <div class="container-fotos">
+          <div class="grid-item"> <img src="./imagen/acido.jpeg"  alt="imagen no encotrada" width="300" height="400">
+              <h2> SERUM </h2>
+              <div class="comprar"> Compra ahora </div>
+          </div>
+          <div class="grid-item"><img src="./imagen/crema.jpeg" alt="imagen no encotrada" width="300" height="400" >
+              <h2> CREMA </h2>
+              <div class="comprar"> Compra ahora </div>
+          </div>
+          <div class="grid-item"> <img src="./imagen/astringente.jpeg" alt="imagen no encotrada" width="300" height="400" >
+              <h2>  LOCION </h2>
+              <div class="comprar"> Compra ahora </div>
         </div>
+
+        <div class="example">PROMOCIONES EXCLUSIVAS.</div>
+        
+<video width="400" controls>
+  <source src="https://www.youtube.com/watch?v=GeDP3zPqqvc">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
         
         <h1 class="border" >DATOS</h1>
         <h2 id="titular3"  >Direccion</h3>   
         <h3 >Santa Fe 3205, 1er piso Depto 6. Palermo, CABA, Buenos aires, Argentina</h3>
-        
 
 
     </main>

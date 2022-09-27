@@ -2,7 +2,6 @@
 /* llamar a la etiqueta directo*/
 *{color:rgb(37, 37, 205)}
 
-body{background-color:white;}
 
 /* llamar a una clase */ 
 .titular:hover{
@@ -73,17 +72,17 @@ h3{
     font-family: 'Playfair Display', serif;
 }
 
-.conj_img
-{   display: flex;
-    flex-wrap: wrap;
-    text-align: center !important;
-    justify-content: space-evenly;
+.container-fotos
+{   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 5px;
+    text-align: center;
 }
 
 
 .img_txt
 {   
-
     width: 280px;
 }
 
@@ -128,10 +127,41 @@ h3{
     align-items:center;
 }
     
-.class {
-@media only screen and (max-width: 600px) {
-    margin-left {
-      background-color: lightblue;
+div.example {
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px;
+  }
+  
+@media screen and (max-width: 600px) {
+    div.example {
+      display: none;
     }
   }
+
+.video {
+    width: 100%;
+    height: auto;
+  }
+
+/* tablet*/
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    .container-fiestas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+/* celular*/
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rosybrown;
+    }
+    .container-fiestas{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
 }
