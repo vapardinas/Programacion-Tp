@@ -1,0 +1,69 @@
+Java script
+-funcional
+base de funciones
+console.log('hola mundo')
+defer- lo ultimo que lee
+multi linea
+/* comentario
+*/ multi linea
+
+console.log("Hola mundo") //Es como un print
+console.log(1+1)
+
+let nombre = "Marina"
+const EDAD = 21 //Siempre vale lo mismo
+
+//Todo lo que ingresa por pormpt es string
+
+//Escribimos en camelCase
+
+//alert("Alerta") Comando de salida, no carga la pagina
+//let nombreUsuario = prompt("Ingrese su nombre") --> Input
+//alert("Su nombre es " +nombreUsuario) --> Print
+
+
+/* Tipos de Datos
+Undefined: dato que no fue declarado
+Boolean
+Null
+Number
+String
+Nan: not a number  -->  100,5 no es un numero, 100.5 si
+*/
+
+/* True - False
+if(0){alert("No soy")} --> No va a aparecer
+if("Hola"){alert("Si soy")}
+*/
+
+//+ - * / 
+console.log(1+1)
+console.log(1-1)
+console.log(1*1)
+console.log(1/1)
+
+console.log("12"+1) //Lo concatena
+console.log("11"-1) //Pasa el 11 a numero
+
+console.log("Marina" && "Hoffmann") //Como no es lazy tiene que chequear el 2do elemento
+console.log("Marina" || "Hoffmann") //Es lazy
+
+console.log(10/5) //Cociente
+console.log(10%5) //Resto
+console.log(2**2) //Potencia
+
+console.log(1==1) //True
+console.log(1!=1) //False
+console.log(1=="1") //True, comparacion debil
+console.log(1==="1") //False, comparacion estricta
+console.log("1"!==1) //True
+
+let edadMinima = 17
+console.log(++edadMinima)
+
+let = edadARestar = prompt("Ingreses su edad")
+console.log(typeof(edadARestar))
+alert("Su edad el año pasado era: " +(edadARestar-1))
+alert("Su edad el año que viene es: " +(edadARestar+1)) //No funciona
+alert("Su edad el año que viene es: " +(parseInt(edadARestar)+1))
+
