@@ -25,6 +25,7 @@ h3{color: black;text-align: center;}
 #wapp{width: 40px;}
 header{line-height: 55px;
     position: -webkit-sticky;
+
         top: 0px;}
 
 button{background-color: #000000;
@@ -99,3 +100,10 @@ footer > a{color: white;}
         gap: 5px;
         text-align: center;
     }
+.cremas{width: 200px;
+        height: 100;
+        float: left;}
+.acidos{width: 200px;
+        float: left;}
+.lociones{width: 200px;
+        float: left;}
