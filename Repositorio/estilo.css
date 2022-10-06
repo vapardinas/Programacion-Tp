@@ -210,3 +210,28 @@ div.example {
     }
 }
 
+.dropdown {display: inline-block;
+    position: relative;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    z-index: 2;}
+.dropdown:hover .dropdown-content {
+    display: block;}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+  }
+.dropdown-content a:hover {
+    color:black;
+    background-color: #00A4BD;
+  }
+
+nav{line-height: 55px;
+    position: -webkit-sticky;
+        top: 0px;}
