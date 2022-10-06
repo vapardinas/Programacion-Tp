@@ -23,11 +23,9 @@ h3{color: black;text-align: center;}
 #nosotros{display: block;}
 #icono-ig{width: 40px;}
 #wapp{width: 40px;}
-header{line-height: 55px;
-    position: -webkit-sticky;
-
+head{line-height: 55px;
+    position: sticky;
         top: 0px;}
-
 button{background-color: #000000;
 color: black;}
 .dropdown {display: inline-block;
@@ -107,3 +105,8 @@ footer > a{color: white;}
         float: left;}
 .lociones{width: 200px;
         float: left;}
+
+.fotos{
+        width: 100px;
+        height: 400px;
+}
