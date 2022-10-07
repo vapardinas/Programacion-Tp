@@ -4,9 +4,10 @@ body{background-color: white ;}
 .navbar{width: 100%;}
 .carouselExampleCaptions{height: 500px;}
 .carousel-inner{width: 80%;z-index: 1 ;}
-h1{color:black;text-align: center; 
+h1{color:white;text-align: center; 
         background-color: palevioletred;
         padding: 20px;
+        position:sticky;
         margin-bottom: 0px;}
 h2{color: black;
         text-align: center;
@@ -98,13 +99,19 @@ footer > a{color: white;}
         gap: 5px;
         text-align: center;
     }
-.cremas{width: 200px;
-        height: 100;
+.cremas{width: 250px;
+        height: auto;
+        align-items: center;
         float: left;}
+
 .acidos{width: 200px;
+        height: auto;
+        align-items: center;
         float: left;}
 .lociones{width: 200px;
+        height: 300px;
         float: left;}
+
 
 .fotos{
         width: 100px;
