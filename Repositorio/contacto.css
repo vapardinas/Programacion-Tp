@@ -1,0 +1,43 @@
+body{color: black;}
+h1{color: black;}
+.form-label{width: 60%;}
+p{color: black;}
+label{color: black;}
+input{color: black;}
+#inputNombre{width: 65%;}
+#inputDireccion{width: 65%;}
+#completa{width: 40%;}
+#valorProducto{display:none!important;}
+#listaProductos{display:none!important;}
+#menu{text-align: center;}
+.btnbtn-primar{ color: black; text-align: center;}
+a{text-align: center;}
+h2{color: black;text-align: center;}
+h5{color: black;}
+h3{color: black;text-align: center;}
+h4{color: black;text-align: center;}
+#Submit1{background-color: rgb(52, 52, 52);text-align: center;}
+#expl{text-align: center;}  
+th{color: black;}
+td{text-align: center;}
+#Radio{color:black;justify-content:space-around;word-spacing: 80PX;}
+#cant{color: black;}
+#Sushi{width: 90px;float: left;}
+#Sushi1{width: 60px; float: left;}
+#Sushi2{width: 400PX; }
+#volver{color: black;} 
+.btnnbtn-primary{background-color: black;color: black; position: sticky;bottom: 10px;}
+.btnnnbtn-primary{background-color: black;color: black;}
+.submit{background-color:blue;color: black;height: 40px; position: sticky;}
+#carrito{position: fixed;bottom: 15px;left: 40% ;width: 300px;}
+#icalculadora{text-align: center;}
+footer{text-align: center;}
+footer > a{color: black;}
+#icono-ig{width: 40px;}
+#wapp{width: 40px;}
+.sc-10gk5i5-3{color: black; }
+.sc-10gk5i5-5{color: black;}
+.bSGoKg {padding: 0px 10px 12px;}
+input{display:inline}
+.form-control{display: inline!important;}
+tbody, td, tfoot, th, thead, tr{border-style: none!important;}
