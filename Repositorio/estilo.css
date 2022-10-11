@@ -6,9 +6,8 @@ body{background-color: white ;}
 .carousel-inner{width: 80%;z-index: 1 ;}
 h1{color:white;text-align: center; 
         background-color: palevioletred;
-        padding: 20px;
-        position:sticky;
-        margin-bottom: 400px;}
+        padding-top: 60px;
+        }
 h2{color: black;
         text-align: center;
         position: static;}
