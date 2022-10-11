@@ -106,7 +106,10 @@ footer > a{color: white;}
 .acidos{width: 200px;
         height: auto;
         align-items: center;
-        float: left;}
+        float: left;
+        justify-content: center;
+}
+
 .lociones{width: 200px;
         height: 300px;
         float: left;}
