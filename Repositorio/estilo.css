@@ -125,5 +125,7 @@ footer > a{color: white;}
         color: white;
 }
 
-
-       
+.imagen{
+        width: 270px;
+        height: 400px;
+}

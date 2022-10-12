@@ -48,17 +48,17 @@
     
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
      
-      <div class="carousel-inner" class="fotos">
+      <div class="carousel-inner" >
         <div class="carousel-item active">
-          <img src="./imagenes/maquillaje.jpeg" class="d-block w-100" alt="..." width="100" height="400">
+          <img src="./imagenes/maquillaje.jpeg" class="d-block w-100 fotos" alt="..." >
           
         </div>
-        <div class="carousel-item">
-          <img src="./imagenes/maqyullaje 2.jpeg" class= "d-block w-100" alt="..." width="100" height="400">
+        <div class="carousel-item ">
+          <img src="./imagenes/maqyullaje 2.jpeg" class= "d-block w-100 fotos" alt="..." >
           
         </div>
-        <div class="carousel-item">
-          <img src="./imagenes/principal.jpeg" class="d-block w-100" alt="..." width="100" height="400">
+        <div class="carousel-item ">
+          <img src="./imagenes/principal.jpeg" class="d-block w-100 fotos" alt="..." >
   
         </div>
       </div>
@@ -82,7 +82,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$2100<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="./imagenes/gel 3.jpeg" class=acidos alt="cremas">  
+            <img src="./imagenes/gel 3.jpeg" class="card-image-top imagen" alt="cremas">  
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Comprar</button>
           </div>
@@ -96,7 +96,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$1800<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="./imagenes/crema 2.jpeg" class=acidos alt="cremas">  
+            <img src="./imagenes/crema 2.jpeg" class="card-image-top imagen" alt="cremas">  
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Comprar</button>
           </div>
@@ -110,14 +110,14 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$1500<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-            <img src="./imagenes/astringente.jpeg" class=acidos alt="cremas" width="300" length="200">  
+            <img src="./imagenes/astringente.jpeg" class="card-image-top imagen" alt="cremas" >  
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Comprar</button>
           </div>
         </div>
       </div>
     </div>
-
+    
 
     <h3> FORMAS DE PAGO </h3>
       <div class="container">
@@ -151,14 +151,61 @@
  <h5>BENEFICIOS Y HERRAMIENTAS EXCLUSIVAS PARA PROFESIONALES DE LA BELLEZA</h5>
  <img src="./imagenes/serlaca.png" class="imagen-mitad" alt="serlaca"> 
  
- <div class="novedades">
-  <div> <h5  > ENTERATE ANTES LAS NOVEDADES Y OFERTAS </h5> </div>
-        <div class="grid-item"> 
-        <h6  > EMAIL</h6> 
-        <input type="text" placeholder=" ">
-        </div>
-        </div>
-        </div>
+ 
+              <div class=" col-12  titulo   py-5">
+                  <h1>ENTERATE ANTES LAS NOVEDADES Y OFERTAS</h1>
+                  <div class=" title-line  ">  </div>
+              </div>
+      
+              <form id="newsLetterForm" onsubmit="SignUpNewsLetter(event)" class="row container mx-auto mt-4" style="max-width:992px;">
+      
+                  <div class="form-group col-md-6 col-sm-12 ">
+                      <label class="pl-1 font-weight-bold">APELLIDO Y NOMBRE</label>
+                      <input autocomplete="off" type="text" class="form-control input-group" placeholder="" maxlength="50" name="Namesurname" required>
+                  </div>
+                  <div class="form-group  col-md-6 col-sm-12">
+                      <label class="pl-1 font-weight-bold  ">E-MAIL</label>
+                      <input autocomplete="off" name="Email" onchange="validateMailIsSubscriber(this)" type="email" class="form-control" placeholder="" maxlength="100" required>
+                  </div>
+      
+                  <div class="form-group   col-md-6 col-sm-12  ">
+                      <div class=" font-weight-bold ">SOY:</div>
+                      <div class="ml-1 row d-flex my-2 align-self-center h-100 ">
+                          <div class="col-6 col-lg-4">
+                              <input name="SubscriberType" class="form-check-input px-1" type="radio" id="profesional" value="profesional" checked>
+                              <label class="custom-control px-1" for="profesional">PROFESIONAL</label>
+                          </div>
+                          <div class="col-6 col-lg-4">
+                              <input name="SubscriberType" class="form-check-input px-1 " type="radio" id="alumno" value="alumno">
+                              <label class="custom-control px-1" for="alumno">ALUMNO/A</label>
+                          </div>
+                          <div class="col-6 col-lg-4">
+                              <input name="SubscriberType" class="form-check-input px-1" type="radio" id="publico" value="publico">
+                              <label class="custom-control px-1" for="publico">PÚBLICO</label>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="form-group mt-3 mt-md-0  col-md-6 col-sm-12 ">
+                      <div class=" font-weight-bold">QUIERO RECIBIR INFORMACIÓN SOBRE:</div>
+                      <div class="ml-1 d-flex my-2 align-self-center ">
+                          <div class="form-check-inline">
+                              <input name="CourseInformation" class="form-check-input mb-2" type="checkbox" checked>
+                              <label class="custom-control px-2">PRODUCTOS</label>
+                          </div>
+                          <div class="form-check-inline">
+                              <input name="ProductInformation" class="form-check-input mb-2" type="checkbox" checked>
+                              <label class="custom-control px-2">CURSOS</label>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="d-flex justify-content-end">
+                      <button class="btn_comun btn "> INSCRIBIRME </button>
+                  </div>
+              </form>
+          </div>
+      </div>
 
  </a><br>
 <br>
