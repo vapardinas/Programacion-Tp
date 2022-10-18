@@ -16,7 +16,7 @@
         
   
         <label for="inputNombre" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Juan Perez">
+        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Martin Perez">
     </div>
     <div class="col-md-6">
         <label for="inputtelefono" class="form-label">Telefono</label>
@@ -37,7 +37,7 @@
         </div><br>
     <div class="col-sm-11">
         <label for="inputDireccion" class="form-label">Direccion</label>
-        <input type="text" class="form-control" id="Direccion" name="Direccion" placeholder="Lavalle 123, Quilmes">
+        <input type="text" class="form-control" id="Direccion" name="Direccion" placeholder="Club de Campo, Hudson">
     </div>
     <input type="text" name="Total" id="valorProducto" >
         
@@ -46,15 +46,14 @@
     <div class="col-sm-14" id="menu">  
     <br>
     <h2>Menu</h2>
-    <a href="#piezain"><button type="button" class="btnbtn-primary" >Piezas individuales</button></a>
-    <a href="#hotrol"><button type="button" class="btnbtn-primary">Hot Roll</button></a>
-    <a href="#veggie"><button type="button" class="btnbtn-primary" >Veggies</button></a>
-    <a href="#combsur"><button type="button" class="btnbtn-primary" >Combinados SUR</button></a>
-    <a href="#combroll"><button type="button" class="btnbtn-primary" >Combinaods ROLL</button></a>
+    <a href="#cremas"><button type="button" class="btnbtn-primary" >Cremas</button></a>
+    <a href="#acidos"><button type="button" class="btnbtn-primary">Acidos</button></a>
+    <a href="#lociones"><button type="button" class="btnbtn-primary" >Lociones</button></a>
+   
     </div> 
     <br>
     <div>
-    <h3 id="piezain">Piezas individuales</h3>
+    <h3 id="cremas">Cremas</h3>
     <p id="expl">Todas las piezas individuales vienen de 4, 8 o 12 unidades</p>
     <table class="table">
         <thead>
@@ -215,31 +214,11 @@
                 <td><P><input type="radio" onclick="sumaProductos(1510, 'Nigiris autn rojo x8')">$1510</P></td>
                 <td><P><input type="radio" onclick="sumaProductos(2350, 'Nigiris atun rojo x12')">$2350</p></td>
             </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.13.54.png" id="Sushi" alt="HOSOMAKIa">
-                <h5>HOSOMAKI DE ATUN</h5>
-                <P>(Alga nori, lomo de atun y arroz)</P></th>
-                <td> <p id="Radio"><input type="radio"onclick="sumaProductos(710, 'hosomaki atun x4')">$710</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(1410, 'hosomaki atun x8')">$1410</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(2100, 'hosomaki x12')">$2100</p></td>
-            </tr>
-            <th scope="row"><img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.14.10.png" id="Sushi" alt="tempura">
-                <h5>TEMPURA</h5>
-                <p>(Langostinos en tempura, philadelphia con un topping de salmon braceado y caviar negro)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(490, 'Tempura x4')">$490</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(980, 'Tempura x8')">$980</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1450, 'Tempura x12')">$1450</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.14.15.png" id="Sushi" alt="SASHIMIS">
-                <h5>SASHIMIS</h5>
-                <p>(Lomo de salmon rosado)</p></th>
-                <td> <p id="Radio"><input type="radio"onclick="sumaProductos(510, 'Sashimis x4')">$510</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(1010 , 'Sashimis x8')">$1010</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1500, 'Sashimis x12')">$1500</p></td>
             </tr>
         </tbody>
     </table>
    
-    <h4 id="hotrol">HOT ROLL</h4>
+    <h4 id="acidos">Acidos</h4>
     <table class="table">
         <thead>
           <tr>
@@ -267,7 +246,7 @@
         </tbody>
     </table>
 
-    <h4 id="veggie">VEGGIES</h4>
+    <h4 id="lociones">Lociones</h4>
     <table class="table">
         <thead>
           <tr>
@@ -303,44 +282,7 @@
     </table>
 
 
-    <h3>Combinados</h3>
-    <p id="expl">Los combos son de 24, 48 y 60 piezas</p>
-    <h4 id="combsur">Combinado SUR</h4>
-    <table class="table">
-        <thead>
-          <tr>
-            <td scope="col" id="cant">24 UNIDADES</td>
-            <td scope="col" id="cant">48 UNIDADES</td>
-            <td scope="col" id="cant">60 UNIDADES</td>
-          </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><p id="Radio"><input type="radio" onclick="sumaProductos(2700, 'Combinado sur x24')">$2700</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(5300, 'Combinado sur x48')">$5300</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(6700, 'Combinado sur x60')">$6700</p></td>
-            </tr>
-        </tbody>
-    </table>
-        <img src="./images/c sur.png" id="Sushi2" alt="comb Sur">
-    <h4 id="combroll">Combinado ROLL</h4>
-    <table class="table">
-        <thead>
-            <tr>
-                <td scope="col" id="cant">24 UNIDADES</td>
-                <td scope="col" id="cant">48 UNIDADES</td>
-                <td scope="col" id="cant">60 UNIDADES</td>
-            </tr>
-        </thead>
-        <tbody>
-                <td> <p id="Radio"><input type="radio"onclick="sumaProductos(2300, 'Combinado roll x24')">$2300</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(4600, 'Combinado roll x48')">$4600</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(5700, 'Combinado roll x60')">$5700</p></td>
-            </tr>
-        </tbody>
-    </table>
-    <img src="./images/c roll.png" id="Sushi2" alt="combroll">
-
+    
 </div>
     <div class="zona_calculadora" id="icalculadora">
         <div class="texto_calcu"></div>
