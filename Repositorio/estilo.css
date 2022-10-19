@@ -146,3 +146,11 @@ footer > a{color: white;}
     .sections1{
         display:inline-block;
 }
+.vanner1{
+        width: 40vh;
+        height: auto;
+}
+
+.imagenesCorredor{
+        height: 300px!important;
+}
