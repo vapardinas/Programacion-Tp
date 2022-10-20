@@ -22,11 +22,11 @@ th{color: black;}
 td{text-align: center;}
 #Radio{color:black;justify-content:space-around;word-spacing: 80PX;}
 #cant{color: black;}
-#Sushi{width: 90px;float: left;}
+#cremas1{width: 90px;float: left;}
 #Sushi1{width: 60px; float: left;}
 #Sushi2{width: 400PX; }
 #volver{color: black;} 
-.btnnbtn-primary{background-color: black;color: black; position: sticky;bottom: 10px;}
+.btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
 .btnnnbtn-primary{background-color: black;color: black;}
 .submit{background-color:blue;color: black;height: 40px; position: sticky;}
 #carrito{position: fixed;bottom: 15px;left: 40% ;width: 300px;}

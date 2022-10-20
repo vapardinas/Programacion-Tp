@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hace tu pedido de Cremas</title>
+    <title>LACA Compras</title>
     <link rel="stylesheet" href="./contacto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
    
-   <h1>Hace tu pedido de Laca </h1>
+   <h1>Kyries Boutique</h1>
    <form action="https://formsubmit.co/2e4560749e0935f69d49253f7df4f17c" method="POST">
     <div class="col-md-6">
         
@@ -53,235 +53,196 @@
     </div> 
     <br>
     <div>
-    <h3 id="cremas">Cremas</h3>
-    <p id="expl">Todas las piezas individuales vienen de 4, 8 o 12 unidades</p>
+    <h3 id="cremas">Kit Cremas</h3>
+    <p id="expl">Todas los kits  vienen de 3, 6 o 12 unidades</p>
     <table class="table">
         <thead>
           <tr>
             <th scope="col"></th>
-            <th scope="col">4 UNIDADES</th>
-            <th scope="col">8 UNIDADES</th>
-            <th scope="col">12 UNIDADES</th>
+            <th scope="col">3 UNIDADES</th>
+            <th scope="col">6 UNIDADES</th>
+            <th scope="col">9 UNIDADES</th>
           </tr>
         </thead>
         <tbody>
-            <tr>
-              <th scope="row"><img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.03.png" id="Sushi" alt="CALIFORNIA">
-                <h5>CALIFORNIA</h5>
-                <P>(Kanikama, pepino, palta y Philadelphia)</P> </th>
-              <td> <p id="Radio"><input type="radio" onclick="sumaProductos(390, 'California x4' )">$390</p></td>
-              <td><P><input type="radio" onclick="sumaProductos(760, 'California x8')">$760</P></td>
-              <td><P><input type="radio" onclick="sumaProductos(1140, 'California x12')">$1140</p></td>
+              <th scope="row"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvibbPbkjqXWvsGGfnQoffuHqAIlLrVfSZTQ&usqp=CAU" id="cremas1" alt="crema">
+              <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Biotherm x3' )">$1800</p></td>
+              <td><P><input type="radio" onclick="sumaProductos(2200, '     Biotherm x6')">$2200</P></td>
+              <td><P><input type="radio" onclick="sumaProductos(3400, 'Biotherm x9')">3400</p></td>
             </tr>
             <tr>
-                <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.11.png" id="Sushi" alt="Tuna">
-                    <h5>TUNAROLL</h5>
-                    <p>(Lomito de atun, Philadelphia y ciboulet)</p> </th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(410, 'Tunaroll x4' )" >$410</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(810, 'Tunaroll x8')">$810</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1210, 'Tunaroll x12')">$1210</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.18.png" id="Sushi" alt="HOSOMAKI">
-                <h5>HOSOMAKI</h5>
-                <p>(Alga nori, arroz y salmon rosado)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(380, 'Homosaki x4')">$380</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(750, 'Homosaki x8')">$750</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1050, 'Homosaki x12')">$1050</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.23.png" id="Sushi" alt="Makis">
-                <h5>MAKIS DE SALMON</h5>
-                <p>(Alga nori, arroz, salmon rosado y palta)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(390, 'Makis de salmon x4')">$390</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(760, 'Makis de salmon x8')">$760</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1140, 'Makis de salmon x12')">$1140</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.34.png" id="Sushi" alt="dragon">
-                <h5>DRAGON ROLL</h5>
-                <P>(Langostino rebozado, Philadelphia y piel crocante de salmon)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(410, 'Dragon roll x4')">$410</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(810, 'Dragon roll x8')">$810</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1210, 'Dragin roll x12')">$1210</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.39.png" id="Sushi" alt="new">
-                <h5>NEW YORK</h5>
-                <p>(Salmon rosado y palta)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(430, 'New york x4')">$430</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(840, 'New york x8')">$840</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1250, 'New yory x12')">$1250</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.05.54.png"id="Sushi" alt="newphila">
-                <h5>NEW YORK PHILA</h5>
-                <P>(Salmon rosdado, palta y Philadelphia)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(440, 'New york phila x4')">$440</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(860, 'New york phila x8')">$860</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1280, 'New york phila x12')">$1280</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.06.08.png" id="Sushi" alt="phila">
-                <h5>PHILAROLL PREMIUM</h5>
-                <P>(Salmon rosado, Philadelphia, topping de palta y caviar negro)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(470, 'Philaroll rosado x4')">$470</p></td>
-                <td><P><input type="radio"onclick="sumaProductos(920, 'Philaroll x8')">$920</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1370, 'Philaroll x12')">$1370</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.06.14.png" id="Sushi" alt="realrol">
-                <h5>REAL ROLL</h5>
-                <P>(Salmon rosado Philadelphia, batata frita y reduccion de mango)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(450, 'Real roll x4')">$450</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(880, 'Real roll x8')">$880</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1290, 'Real roll x12')">$1290</p></td>
-            </tr>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.06.20.png" id="Sushi" alt="realp">
-                <h5>REAL ROLL PREMIUM</h5>
-                <p>(Salmon rosado, tamango, Philadelphia, batata frita y salsa de maracuya)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(510, 'Real roll premium x4')">$510</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(1010, 'Real roll premium x8')">$1010</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1500, 'Real roll premium x12')">$1500</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.06.26.png" id="Sushi" alt="FEEL">
-                <h5>FEEL ROLL</h5>
-                <p>(Tamango, salmon rosado y Philadelphia</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(460, 'Feel roll x4')">$460</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(910, 'Feel roll x8')">$910</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1350, 'Feel roll x12')">$1350</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.06.31.png" id="Sushi" alt="FUSION">
-                <h5>FUSION ROLL</h5>
-                <p>(Platano, salmon rosado, palta, Philadelphia, rebozado con panko)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(540, 'Fusion roll x4')">$540</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(1060, 'Fusion roll x8')">$1060</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1590, 'Fusion x12')">$1590</p></td>
-            </tr>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 22.06.35.png" id="Sushi" alt="guacamole">
-                <h5>GUACAMOLEROLL</h5>
-                <p>(Salmon rosado salteado, Philadelphia y guacamole)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(430, 'Guacamole roll x4')">$430</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(860, 'Guacamoleroll x8')">$860</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1290, 'Guacamoleroll x12')">$1290</p></td>
-            </tr>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.05.58.png" id="Sushi" alt="DELICIOUS">
-                <h5>DELICIOUS ROLL</h5>
-                <P>(salmon rosado salteado, Philadelphia y frutos secos caramelizados)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(440, 'Deliciousroll x4')">$440</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(880, 'Deliciousroll x8')">$880</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1290, 'Deliciousroll x12')">$1290</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.06.02.png" id="Sushi1" alt="GEISHAS">
-                <h5>GEISHAS</h5>
-                <P>(salmon, Philadelphia y palta)</P></th>
-                <td><p id="Radio"><input type="radio" onclick="sumaProductos(470, 'Geishas x4')">$470</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(920, 'Geishas x8')">$920</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1360, 'Geishas x12')">$1360</p></td>
-            </tr>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.06.08.png" id="Sushi" alt="Boscato">
-                <h5>BOSCATO ROLL</h5>
-                <p>(Philadelphia, palta, langostino, topping de salmon y salsa de maracuya)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(450, 'Boscatoroll x4')">$450</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(900, 'Boscatoroll x8')">$900</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1320, 'Boscatoroll x12')">$1320</p></td>
-            </tr>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.06.22.png" id="Sushi" alt="brie">
-                <h5>BRIE ROLL</h5>
-                <p>(Langostino, palta, Philadelphia, salmon rosado y queso brie gratinado)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(470, 'Brieroll x4')">$470</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(930, 'Brieroll x8')">$930</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1370, 'Brieroll x12')">$1370</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.06.27.png" id="Sushi" alt="CHICKEN">
-                <h5>CHICKEN ROLL</h5>
-                <p>(pollo rebozado con panko, Philadelphiay palta)</p></th>
-                <td> <p id="Radio"><input type="radio"onclick="sumaProductos(405, 'Chkienroll x4')">$405</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(800, 'Chkienroll x8')">$800</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1210, 'Chkienroll x12')">$1210</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.06.36.png" id="Sushi" alt="NIGIRIS">
-                <h5>NIGIRIS DE SALMON</h5>
-                <p>(arroz y salmon rosado)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(440, 'Nigiris salmon x4')">$440</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(870, 'Nigiris salmon x8')">$870</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1290, 'Nigiris salmon x12')">$1290</p></td>
-            </tr>
-            <th scope="row"><img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.06.40.png" id="Sushi" alt="nigibra">
-                <h5>NIGIRIS DE SALMON BRA</h5>
-                <P>(Arroz, salmon braseado y cabian negro)</P></th>
-                <td> <p id="Radio"><input type="radio"onclick="sumaProductos(480, 'Nigiris salmon bra x4')">$480</p></td>
-                <td><P><input type="radio"onclick="sumaProductos(950, 'Nigiris salmon bra x8')">$950</P></td>
-                <td><P><input type="radio"onclick="sumaProductos(1410, 'Nigiris salmon bra x12')">$1410</p></td>
-            </tr>
-            <th scope="row"><img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.13.43.png" id="Sushi" alt="atur">
-                <h5>NIGIRIS DE ATUN ROJO</h5>
-                <P>(Alga nori, lomo de atun rojo y caviar negro)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(790, 'Nigiris atun rojo x4')">$790</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(1510, 'Nigiris autn rojo x8')">$1510</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(2350, 'Nigiris atun rojo x12')">$2350</p></td>
-            </tr>
+                <th scope="row"><img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568113425-03-cremas-con-retinol-1529496138.jpg?crop=1xw:1xh;center,top&resize=480:*" class="img-thumbnail imagenesCorredor" id="cremas1" alt="crema">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Retinol x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '     Retinol x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Retinol x9')">3400</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="data:image/jpeg;base64,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" class="img-thumbnail imagenesCorredor" id="cremas1" alt="crema">
+                
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Caviahue noche x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '     Caviahue noche x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Caviahue noche x9')">3400</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://e00-telva.uecdn.es/assets/multimedia/imagenes/2021/02/02/16122843034410.jpg" class="img-thumbnail imagenesCorredor" id="cremas1" alt="crema">
+               
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Caviahue dia x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '     Caviahue dia x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Caviahue dia x9')">3400</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1vzJpDgLupSu2eO0YR812auHQsqm3MIKOrRD85Y0GmYT8K51QUTbQ12KED1AfB7CeT4&usqp=CAU" id="cremas1" alt="crema">
+          
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Olay x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '     Olay x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Olay x9')">3400</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvibbPbkjqXWvsGGfnQoffuHqAIlLrVfSZTQ&usqp=CAU" id="cremas1" alt="crema">
+          
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Biotherm aqua x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '    Biotherm aqua x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Biotherm aqua x9')">3400</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQTD00Gp_swYVTbXsL9lm8d1G1LY91zXfXw&usqp=CAU" id="cremas1" alt="crema">
+             
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Hyaluronic acid  x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '     Hyaluronic acid  x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Hyaluronic acid  x9')">3400</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://images-na.ssl-images-amazon.com/images/I/71GFdB9VdKL._AC_UL330_SR330,330_.jpg" id="cremas1" alt="crema">
+               
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(1800, 'Loreal x3' )">$1800</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(2200, '     Loreal x6')">$2200</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(3400, 'Loreal x9')">3400</p></td>
+              </tr>
             </tr>
         </tbody>
     </table>
    
-    <h4 id="acidos">Acidos</h4>
+    <h4 id="acidos">Kit Acidos</h4>
     <table class="table">
         <thead>
           <tr>
             <th scope="col"></th>
-            <th scope="col">4 UNIDADES</th>
-            <th scope="col">8 UNIDADES</th>
-            <th scope="col">12 UNIDADES</th>
+            <th scope="col">3 UNIDADES</th>
+            <th scope="col">6 UNIDADES</th>
+            <th scope="col">9 UNIDADES</th>
           </tr>
         </thead>
         <tbody>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.13.59.png" id="Sushi" alt="hots">
-                <H5>HOT ROLL DE SALMON</H5>
-                <P>(salmon rosado, philadelphia, palta y rebozado con panko)</P></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(490, 'Hotroll salmon x4')">$490</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(970, 'Hotroll salmon x8')">$970</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1420, 'Hotroll salmon x12')">$1420</p></td>
-            </tr>
-            <th scope="row"><img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.14.03.png" id="Sushi" alt="hotl">
-                <h5>HOT ROLL DE LANGOSTINO</h5>
-                <p>(Langostino, philadelphia, arroz y rebozado con panko)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(480, 'Hotroll langostino x4')">$480</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(950, 'Hotroll langostino x8')">$950</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1410, 'Hotroll langostino x12')">$1410</p></td>
-            </tr>
+                <th scope="row"><img src="https://http2.mlstatic.com/D_NQ_NP_619380-MLA44141377186_112020-O.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://http2.mlstatic.com/D_NQ_NP_852114-MLA51093496084_082022-O.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwAHF9kOeS5EvFQ0UoUdvc94zfLt8iy7IuNw&usqp=CAU" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/342/458/products/locion-glico-401-9f09073d560d6b7d4d16002658450746-480-0.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://www.heavenimagenes.com/heavencommerce/cbed7736-4c76-4fd0-b719-9ff071142423/images/v2/LACA/1707080216362282_01_medium.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://biotexturas.files.wordpress.com/2017/07/concentrado-hidronutriente-con-tamarindo-y-trc3a9bol-rojo-laca-350.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://http2.mlstatic.com/D_NQ_NP_682625-MLA50091144943_052022-V.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/997/647/products/serm-facial-con-ramnosa1-44aeb6945a66ff04ab15625462085342-640-0.png" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
         </tbody>
     </table>
 
-    <h4 id="lociones">Lociones</h4>
+    <h4 id="lociones">Kit Lociones</h4>
     <table class="table">
         <thead>
           <tr>
             <th scope="col"></th>
-            <th scope="col">4 UNIDADES</th>
-            <th scope="col">8 UNIDADES</th>
-            <th scope="col">12 UNIDADES</th>
+            <th scope="col"> 3 UNIDADES</th>
+            <th scope="col"> 6 UNIDADES</th>
+            <th scope="col"> 9 UNIDADES</th>
           </tr>
         </thead>
         <tbody>
-            <th scope="row">  <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.20.20.png" id="Sushi" alt="hotv">
-                <h5>VEGGIE HOT PREMIUM</h5>
-                <p>(Zanahoria, philadelphia, rebozado con panko, guacamole y batatas fritas por encima)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(490)">$490</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(960)">$960</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1410)">$1410</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.20.24.png" id="Sushi" alt="VEGGIE">
-                <h5>VEGGIE ROLL</h5>
-                <p>(pepino, philadelphia y topping de palta)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(390)">$390</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(760)">$760</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1140)">$1140</p></td>
-            </tr>
-            <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.20.28.png" id="Sushi" alt="BEETROOT">
-                <h5>BEETROOT ROOL</h5>
-                <p>(Arroz teñido con remolacha, remolacha y philadelphia)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(400)">$400</p></td>
-                <td><P><input type="radio" onclick="sumaProductos(790)">$790</P></td>
-                <td><P><input type="radio" onclick="sumaProductos(1110)">$1110</p></td>
-            </tr>
+                <th scope="row"><img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/342/458/products/locion-astringente1-0e2d7d6bcfdbee529c16001126442843-640-0.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://http2.mlstatic.com/D_NQ_NP_866213-MLA42195250000_062020-O.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/342/458/products/locion-astringente-con-nicotinamida-100ml1-2bb05c7536b5672e8d16019133758580-640-0.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://s.cornershopapp.com/product-images/1097876.png?versionId=7DA5NmeAv2b456UJDE68RCR_QFIJmLTB" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://farmacityar.vteximg.com.br/arquivos/ids/201603-1000-1000/103323_locion-astrigente-purificante-normaderm-x-200-ml_imagen-1.jpg?v=637305049374630000" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://http2.mlstatic.com/D_NQ_NP_866193-MLA50483560211_062022-V.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://images-na.ssl-images-amazon.com/images/I/71Uv4hTEV-L._AC_UL330_SR330,330_.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="https://http2.mlstatic.com/D_NQ_NP_696922-MLA51636498936_092022-V.jpg" id="cremas1" alt="acidos">
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(2100, 'Biotherm x3' )">$2100</p></td>
+                <td><P><input type="radio" onclick="sumaProductos(3500, '     Biotherm x6')">$3500</P></td>
+                <td><P><input type="radio" onclick="sumaProductos(4200, 'Biotherm x9')">$4200</p></td>
+              </tr>
         </tbody>
     </table>
-
-
     
 </div>
     <div class="zona_calculadora" id="icalculadora">
@@ -315,10 +276,5 @@
         
         </script>
     </div>
-    <footer>
-        <a href="https://www.instagram.com/sushisur_/"> <img src="./images/instagram-brands luna.svg" id="icono-ig" alt="instagram"></a> 
-        <a href="https://api.whatsapp.com/send?phone=5491165528645"> <img src="./images/whatsapp-brands.svg"  id="wapp" alt="Whatsapp">
-      <br>
-      </footer>
 </body>
 </html>
