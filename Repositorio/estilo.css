@@ -150,5 +150,6 @@ footer > a{color: white;}
 }
 
 .imagen{
-        height: 400px;
+        height: auto;
+        width: auto;
 }
