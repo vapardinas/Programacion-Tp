@@ -148,3 +148,7 @@ footer > a{color: white;}
 .imagenesCorredor{
         height: 300px!important;
 }
+
+.imagen{
+        height: 400px;
+}
