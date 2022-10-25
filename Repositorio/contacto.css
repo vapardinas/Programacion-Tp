@@ -1,4 +1,5 @@
 body{color: black;}
+body{background-color: rgb(234, 174, 194) !important;}
 h1{color: black;}
 .form-label{width: 60%;}
 p{color: black;}
@@ -28,13 +29,11 @@ td{text-align: center;}
 #volver{color: black;} 
 .btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
 .btnnnbtn-primary{background-color: black;color: black;}
-.submit{background-color:blue;color: black;height: 40px; position: sticky;}
+.submit{background-color:rgb(234, 234, 250);color: black;height: 40px; position: sticky;}
 #carrito{position: fixed;bottom: 15px;left: 40% ;width: 300px;}
-#icalculadora{text-align: center;}
+#calculos{text-align: center;}
 footer{text-align: center;}
 footer > a{color: black;}
-#icono-ig{width: 40px;}
-#wapp{width: 40px;}
 .sc-10gk5i5-3{color: black; }
 .sc-10gk5i5-5{color: black;}
 .bSGoKg {padding: 0px 10px 12px;}

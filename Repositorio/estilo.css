@@ -21,6 +21,7 @@ p{color: black;}
 h3{color: black;text-align: center;}
 #nuevo{text-align: left;}
 #nosotros{display: block;}
+#acidos1{display: block;}
 #icono-ig{width: 40px;}
 #wapp{width: 40px;}
 head{line-height: 55px;
@@ -98,21 +99,6 @@ footer > a{color: white;}
         gap: 5px;
         text-align: center;
     }
-.cremas{width: 250px;
-        height: auto;
-        align-items: center;
-        float: left;}
-
-.acidos{width: 200px;
-        height: auto;
-        align-items: center;
-        float: left;
-        justify-content: center;
-}
-
-.lociones{width: 200px;
-        height: 300px;
-        float: left;}
 
 
 .fotos{
@@ -141,6 +127,14 @@ footer > a{color: white;}
     }
 
     #populares{
+        padding: 50px;
+    }
+
+    #populares1{
+        padding: 50px;
+    }
+
+    #populares2{
         padding: 50px;
     }
     .sections1{
