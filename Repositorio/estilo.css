@@ -145,10 +145,22 @@ footer > a{color: white;}
         height: auto;
 }
 
-.imagenesCorredor{
+.imagenesCorredor1{
         height: 300px!important;
+        width: 280px;
         }
-#tit{
+
+.imagenesCorredor2{
+        height: 280px!important;
+        width: 200px;
+        }
+
+.imagenesCorredor3{
+        height: 300px!important;
+        width: 180px;
+        }
+
+        #tit{
         padding: 10px!important;
         
 }
