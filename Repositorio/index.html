@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LACA Cosmetica Profesional</title>
-    <link rel="icon" href="imagenes/apple-touch-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./imagenes/111.png">
   </head>
-
 <body>
   <div > <h1> Kyries Boutique </h1> </div>
     <header>
@@ -39,8 +38,14 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" style="color:white" href="#redes">SERLACA</a>
               </li>
-              <a href="./contacto.html"><button type="button" class="btn btn-primary" > Hace tu pedido</button></a>
-              
+              <div class="dropdown">
+                <a class="nav-link active" style="color:white" aria-current="page" href="#">Hace tu Pedido</a>
+                <div class="dropdown-content">
+                <a href="/cremas.html" >Cremas </a>
+                <a href="/acido.html">Acidos</a>
+                <a href="/lociones.html">Lociones</a>
+                </div> 
+
             </ul>
           </div>
         </div>
@@ -86,7 +91,7 @@
             <ul class="list-unstyled mt-3 mb-4">
             <img src="./imagenes/kit acidos.jpeg" class="card-image-top imagen" alt="cremas">  
             </ul>
-            <a href="./contacto.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Comprar</button></a>
+            <a href="./acido.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Ver</button></a>
           </div>
         </div>
       </div>
@@ -100,7 +105,7 @@
             <ul class="list-unstyled mt-3 mb-4">
             <img src="./imagenes/kit cremas.jpeg" class="card-image-top imagen" alt="cremas"> 
             </ul>
-            <a href="./contacto.html"> <button type="button" class="w-100 btn btn-lg btn-outline-primary">Comprar</button></a>
+            <a href="./cremas.html"> <button type="button" class="w-100 btn btn-lg btn-outline-primary">Ver</button></a>
           </div>
         </div>
       </div>
@@ -114,7 +119,7 @@
             <ul class="list-unstyled mt-3 mb-4">
             <img src="./imagenes/kit lociones.jpeg" class="card-image-top imagen" alt="cremas" > 
             </ul>
-            <a href="./contacto.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Comprar</button></a> 
+            <a href="./lociones.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Ver</button></a> 
           </div>
         </div>
       </div>
@@ -122,7 +127,7 @@
    
   </div>
   <div class="sections" id="populares"  > 
-    <div class="sections1 vanner1 ">
+    <div class="sections1 banner1 ">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvibbPbkjqXWvsGGfnQoffuHqAIlLrVfSZTQ&usqp=CAU" class="img-thumbnail imagenesCorredor1" alt="...">
       <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568113425-03-cremas-con-retinol-1529496138.jpg?crop=1xw:1xh;center,top&resize=480:*" class="img-thumbnail imagenesCorredor1" alt="...">
       <img src="data:image/jpeg;base64,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" class="img-thumbnail imagenesCorredor1" alt="...">
@@ -136,7 +141,7 @@
 
     </div>
     <div class="sections" id="populares1"> 
-      <div class="sections1 vanner1">
+      <div class="sections1 banner1">
         <img src="https://http2.mlstatic.com/D_NQ_NP_619380-MLA44141377186_112020-O.jpg" class="img-thumbnail imagenesCorredor2" alt="...">
         <img src="https://http2.mlstatic.com/D_NQ_NP_852114-MLA51093496084_082022-O.jpg" class="img-thumbnail imagenesCorredor2" alt="...">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwAHF9kOeS5EvFQ0UoUdvc94zfLt8iy7IuNw&usqp=CAU" class="img-thumbnail imagenesCorredor2" alt="...">
@@ -148,7 +153,7 @@
       </div>
     </div>
     <div class="sections " id="populares2"> 
-      <div class="sections1">
+      <div class="sections1 banner1">
         <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/342/458/products/locion-astringente1-0e2d7d6bcfdbee529c16001126442843-640-0.jpg" class="img-thumbnail imagenesCorredor3" alt="...">
         <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/342/458/products/locion-matificante-laca-teens1-343f8288ab213a6f4616002650590944-640-0.jpg" class="img-thumbnail imagenesCorredor3" alt="...">
         <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/342/458/products/locion-astringente-con-nicotinamida-100ml1-2bb05c7536b5672e8d16019133758580-640-0.jpg" class="img-thumbnail imagenesCorredor3" alt="...">
@@ -208,7 +213,7 @@
           <li class="nav-item mb-2"><a href="#populares" class="nav-link p-0 text-muted">Productos</a></li>
           <li class="nav-item mb-2"><a href="#nosotros" class="nav-link p-0 text-muted">Nuestra Historia</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ser Laca</a></li>
-          <li class="nav-item mb-2"><a href="./contacto.html" class="nav-link p-0 text-muted">Hace tu Pedido</a></li>
+          <li class="nav-item mb-2"><a href="./cremas.html" class="nav-link p-0 text-muted">Hace tu Pedido</a></li>
         </ul>
       </div>
 
@@ -219,7 +224,7 @@
           <li class="nav-item mb-2"><a href="#populares" class="nav-link p-0 text-muted">Productos</a></li>
           <li class="nav-item mb-2"><a href="#nosotros" class="nav-link p-0 text-muted">Nuestra Historia</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ser Laca</a></li>
-          <li class="nav-item mb-2"><a href="./contacto.html" class="nav-link p-0 text-muted">Hace tu Pedido</a></li>
+          <li class="nav-item mb-2"><a href="./acido.html" class="nav-link p-0 text-muted">Hace tu Pedido</a></li>
         </ul>
       </div>
 
@@ -230,7 +235,7 @@
           <li class="nav-item mb-2"><a href="#populares" class="nav-link p-0 text-muted">Productos</a></li>
           <li class="nav-item mb-2"><a href="#nosotros" class="nav-link p-0 text-muted">Nuestra Historia</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ser Laca</a></li>
-          <li class="nav-item mb-2"><a href="./contacto.html" class="nav-link p-0 text-muted">Hace tu Pedido</a></li>
+          <li class="nav-item mb-2"><a href="./lociones.html" class="nav-link p-0 text-muted">Hace tu Pedido</a></li>
         </ul>
       </div>
 

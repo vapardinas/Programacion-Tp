@@ -1,5 +1,5 @@
 body{color: black;}
-body{background-color: orchid !important;}
+body{background-color: white !important;}
 h1{color: black;}
 .form-label{width: 60%;}
 p{color: black;}
@@ -13,6 +13,7 @@ input{color: black;}
 #menu{text-align: center;}
 .btnbtn-primar{ color: black; text-align: center;}
 a{text-align: center;}
+h1{color: black;text-align: center;}
 h2{color: black;text-align: center;}
 h5{color: black;}
 h3{color: black;text-align: center;}
@@ -23,9 +24,7 @@ th{color: black;}
 td{text-align: center;}
 #Radio{color:black;justify-content:space-around;word-spacing: 80PX;}
 #cant{color: black;}
-#cremas1{width: 90px;float: left;}
-#Sushi1{width: 60px; float: left;}
-#Sushi2{width: 400PX; }
+.cremas1{width: 10%;float: left;min-height:500px!important;}
 #volver{color: black;} 
 .btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
 .btnnnbtn-primary{background-color: black;color: black;}
@@ -35,6 +34,10 @@ td{text-align: center;}
 footer{text-align: center;}
 footer > a{color: black;}
 .sc-10gk5i5-3{color: black; }
+.cremas2{
+    width:500px; 
+    height:200px
+}
 .sc-10gk5i5-5{color: black;}
 .bSGoKg {padding: 0px 10px 12px;}
 input{display:inline}
