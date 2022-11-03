@@ -24,7 +24,7 @@ th{color: black;}
 td{text-align: center;}
 #Radio{color:black;justify-content:space-around;word-spacing: 80PX;}
 #cant{color: black;}
-.cremas1{width: 10%;float: left;min-height:500px!important;}
+.cremas1{width: 10%;float: left;min-height:300px!important;}
 #volver{color: black;} 
 .btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
 .btnnnbtn-primary{background-color: black;color: black;}
@@ -38,6 +38,10 @@ footer > a{color: black;}
     width:500px; 
     height:200px
 }
+
+.texto{
+min-height:300px!important;}
+
 .sc-10gk5i5-5{color: black;}
 .bSGoKg {padding: 0px 10px 12px;}
 input{display:inline}
