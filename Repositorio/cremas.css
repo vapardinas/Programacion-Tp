@@ -24,7 +24,7 @@ th{color: black;}
 td{text-align: center;}
 #Radio{color:black;justify-content:space-around;word-spacing: 80PX;}
 #cant{color: black;}
-.cremas1{width: 10%;float: left;min-height:300px!important;}
+.acido{width:60% ; height: 320px;}
 #volver{color: black;} 
 .btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
 .btnnnbtn-primary{background-color: black;color: black;}
@@ -34,10 +34,15 @@ td{text-align: center;}
 footer{text-align: center;}
 footer > a{color: black;}
 .sc-10gk5i5-3{color: black; }
-.cremas2{
-    width:500px; 
-    height:200px
+.crema1{
+    width: 290px; 
+    height: 280px;
 }
+.locion{
+    width: 280px; 
+    height: 430px;
+}
+.formato{min-height:300px!important;}
 .sc-10gk5i5-5{color: black;}
 .bSGoKg {padding: 0px 10px 12px;}
 input{display:inline}
