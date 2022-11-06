@@ -56,3 +56,4 @@ tbody, td, tfoot, th, thead, tr{border-style: none!important;}
     border: palevioletred!important;
 }
 .bord{border-color: white!important;}
+.fixed-top{padding-top: 5px!important; }
