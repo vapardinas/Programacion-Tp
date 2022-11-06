@@ -2,7 +2,7 @@ body{color: black;}
 body{background-color: white !important;}
 h1{color: black;}
 #titulo{color:white;
-    background-color: cornflowerblue;
+    background-color: palevioletred;
     padding-top: 40px;
     }
 .form-label{width: 60%;}
@@ -30,7 +30,7 @@ td{text-align: center;}
 #cant{color: black;}
 .acido{width: 40%; ; height: 300px;}
 #volver{color: black;} 
-.btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
+.btnnbtn-primary{background-color: white;color: palevioletred; position: sticky;bottom: 10px;}
 .btnnnbtn-primary{background-color: black;color: black;}
 .submit{background-color:rgb(234, 234, 250);color: black;height: 40px; position: sticky;}
 #carrito{position: fixed;bottom: 15px;left: 40% ;width: 300px;}
@@ -39,17 +39,20 @@ footer{text-align: center;}
 footer > a{color: black;}
 .sc-10gk5i5-3{color: black; }
 .crema1{
-    width: 300px; 
-    height: 280px;
+    width: 10%; 
+    height: 200px;
 }
 .locion{
     width: 180px; 
     height: 300px;
 }
-.formato{min-height:300px!important;}
 .sc-10gk5i5-5{color: black;}
 .bSGoKg {padding: 0px 10px 12px;}
 input{display:inline}
 .form-control{display: inline!important;}
 tbody, td, tfoot, th, thead, tr{border-style: none!important;}
-
+.color{
+    background-color: palevioletred!important;
+    border: palevioletred!important;
+}
+.bord{border-color: white!important;}
