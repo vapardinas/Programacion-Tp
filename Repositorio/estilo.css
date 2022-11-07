@@ -64,6 +64,11 @@ footer > a{color: white;}
     text-align: center;
     align-items: center;
 }
+.btn-primary {
+        color: #fff;
+        background-color: palevioletred!important;
+        border-color: palevioletred!important;
+}   
 .boton{
         background-color: black;
         color: white;
