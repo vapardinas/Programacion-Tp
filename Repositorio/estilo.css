@@ -11,12 +11,14 @@ h1{color:white;text-align: center;
 h2{color: black;
         text-align: center;
         position: static;}
-#logo-menu{width: 100px;
+#logo{width: 100px;
         display: inline;
         float: left;}
 h4{color: black;}
 h5{color: black;}
 p{color: black;}
+#prom{display: inline;}
+.imagen-mitad{width: 100%;}
 .col-6{margin-left: 200px;}
 h3{color: black;text-align: center;}
 #nuevo{text-align: left;}
@@ -53,8 +55,6 @@ color: black;}
 footer{text-align: center;}
 footer > a{color: white;}
  h1{margin-bottom: 0px!important;}
- #prom{display: inline;}
-.imagen-mitad{width: 100%;}
 .col-6{margin:0px;}
 .container-fotos
 {   display: grid;
@@ -66,8 +66,9 @@ footer > a{color: white;}
 }
 .btn-primary {
         color: #fff;
-        background-color: palevioletred!important;
-        border-color: palevioletred!important;
+        background-color: black!important;
+        border-color: black!important;
+        margin-left: 710px;
 }   
 .boton{
         background-color: black;
@@ -163,7 +164,7 @@ footer > a{color: white;}
         width: 180px;
         }
 
-        #tit{
+#tit{
         padding: 10px!important;
 
 }
