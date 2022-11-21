@@ -107,3 +107,5 @@ a{text-decoration: none;}
 {
     border-top: 0cm;
 }
+#valorProducto{display:none!important;}
+#listaProductos{display:none!important;}
